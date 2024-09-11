@@ -38,5 +38,5 @@ class Mul:
         return repr(self.p1) + " * " + repr(self.p2)
 
 
-poly = Add( Add( Int(4), Int(3)), Add( X(), Mul( Int(1), Add( Mul(X(), X()), Int(1)))))
-print(poly.evaluate(-1))
+polynomial = Add( Add( Int(4), Int(3)), Add( X(), Mul( Int(1), Add( Mul(X(), X()), Int(1)))))
+print(polynomial.evaluate(-1))
